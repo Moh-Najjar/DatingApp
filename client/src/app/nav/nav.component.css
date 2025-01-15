@@ -1,0 +1,10 @@
+.navbar {
+  padding-inline: 50px;
+}
+.nav-item {
+  cursor: pointer;
+}
+
+.dropdown {
+  cursor: pointer;
+}
