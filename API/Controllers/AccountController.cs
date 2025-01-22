@@ -63,5 +63,4 @@ public class AccountController(DataContext context, ITokenService tokenService) 
     {
         return await context.Users.AnyAsync(x => x.UserName.ToLower() == username.ToLower());
     }
-
 }
